@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="action_newgame">New game</string>
+    <string name="action_settings">Settings</string>
+    <string name="settings_activity_label">Settings</string>
+    
+    <string name="preference_section_title_player">Player settings</string>
+    <string name="preference_section_title_cpu">CPU settings</string>
+    <string name="preference_section_title_general">General settings</string>
+    
+    <string name="preference_dialog_player_symbol_title">Player symbol</string>
+    <string name="preference_dialog_player_color_title">Player color</string>
+    <string name="preference_dialog_cpu_color_title">CPU color</string>
+    
+    <string name="preference_player_symbol_title">Symbol</string>
+    <string name="player_symbol_summary">Choose player tile symbol</string>
+    
+    <string name="preference_player_color_title">Color</string>
+    <string name="player_color_summary">Choose player tile color</string>
+	<string name="preference_cpu_color_title">Color</string>
+	<string name="cpu_color_summary">Choose CPU tile color</string>
+	
+	<string name="preference_background_music_title">Background music</string>
+	<string name="background_music_summary">Toggle music on/off</string>
+	<string name="preference_background_music_default_state">true</string>
+	
+</resources>

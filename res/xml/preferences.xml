@@ -1,0 +1,48 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preference_section_title_player" >
+
+        <ListPreference
+            android:dialogTitle="@string/preference_dialog_player_symbol_title"
+            android:entries="@array/entries_list_preference_player_symbol"
+            android:entryValues="@array/entryvalues_list_preference_player_symbol"
+            android:summary="@string/player_symbol_summary"
+            android:key="player_symbol_preference"
+            android:defaultValue="X"
+            android:title="@string/preference_player_symbol_title" />
+
+        <ListPreference
+            android:dialogTitle="@string/preference_dialog_player_color_title"
+            android:entries="@array/entries_list_preference_player_color"
+            android:entryValues="@array/entryvalues_list_preference_player_color"
+            android:summary="@string/player_color_summary"
+            android:key="player_color_preference"
+            android:defaultValue="Green"
+            android:title="@string/preference_player_color_title" />
+        
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/preference_section_title_cpu" >
+        
+        <ListPreference
+            android:dialogTitle="@string/preference_dialog_cpu_color_title"
+            android:entries="@array/entries_list_preference_cpu_color"
+            android:entryValues="@array/entryvalues_list_preference_cpu_color"
+            android:summary="@string/cpu_color_summary"
+            android:key="cpu_color_preference"
+            android:defaultValue="Yellow"
+            android:title="@string/preference_cpu_color_title" />
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/preference_section_title_general" >
+       
+        <CheckBoxPreference
+            android:defaultValue="@string/preference_background_music_default_state"
+            android:summary="@string/background_music_summary"
+            android:key="background_music_preference"
+            android:title="@string/preference_background_music_title" />
+       
+    </PreferenceCategory>
+
+</PreferenceScreen>

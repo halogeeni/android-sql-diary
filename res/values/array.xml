@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="entries_list_preference_player_symbol">
+        <item>X</item>
+        <item>O</item>
+    </string-array>
+    
+    <string-array name="entryvalues_list_preference_player_symbol">
+        <item>X</item>
+        <item>O</item>
+    </string-array>
+    
+    <string-array name="entries_list_preference_player_color">
+        <item>Green</item>
+        <item>Purple</item>
+    </string-array>
+    
+    <string-array name="entryvalues_list_preference_player_color">
+        <item>#378B2E</item>
+        <item>#6F619D</item>
+    </string-array>
+    
+    <string-array name="entries_list_preference_cpu_color">
+        <item>Yellow</item>
+        <item>Red</item>
+    </string-array>
+    
+    <string-array name="entryvalues_list_preference_cpu_color">
+        <item>#AA9739</item>
+        <item>#A7383D</item>
+    </string-array>
+
+</resources>
